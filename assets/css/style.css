@@ -276,7 +276,7 @@ html {
     border: none;
     text-align: center;
     appearance: none;
-    -webkit-animation: none;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
