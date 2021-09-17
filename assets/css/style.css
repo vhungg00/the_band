@@ -274,9 +274,10 @@ html {
     background-color: #000;
     padding: 11px 16px;
     border: none;
-    text-align: center;
-    appearance: none;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
 }
 
 .btn:hover {
