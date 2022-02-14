@@ -38,9 +38,9 @@ html {
     text-align: center !important;
 }
 .text-white {
-    color: #fff !important; 
+    color: #fff !important;
 }
-.modal.open{
+.modal.open {
     display: flex;
 }
 .mt-8 {
@@ -49,9 +49,7 @@ html {
 .mt-16 {
     margin-top: 16px;
 }
-.mt-32
-#main {
-
+.mt-32 #main {
 }
 
 #header {
@@ -62,7 +60,6 @@ html {
     z-index: 2;
     background-color: #000;
     height: 46px;
-    
 }
 /* handle header */
 #nav {
@@ -77,7 +74,6 @@ html {
     display: inline-block;
 }
 #nav > li > a {
-    
     line-height: 46px;
     padding: 0 24px;
     text-transform: uppercase;
@@ -88,10 +84,10 @@ html {
 }
 
 #nav > li:hover > a,
-#nav .subnav li:hover{
+#nav .subnav li:hover {
     background-color: #ccc;
     color: #000;
-} 
+}
 #nav li a {
     display: block;
     color: #fff;
@@ -104,7 +100,7 @@ html {
     background-color: #fff;
     width: 160px;
     line-height: 22px;
-    box-shadow: 0 0 10px rgba(0, 0, 0 , 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 #nav .subnav a {
@@ -121,9 +117,8 @@ html {
     color: #fff;
     padding: 0 24px;
     line-height: 46px;
-    
 }
-#header .menu-btn:hover  {
+#header .menu-btn:hover {
     background-color: #ccc;
     color: #000;
 }
@@ -138,13 +133,12 @@ html {
 }
 #slider .text-content {
     color: #fff;
-    position:absolute;
+    position: absolute;
     bottom: 50px;
     /* left: 0;
     right: 0; */
     width: 100%;
     text-align: center;
-    
 }
 
 #slider .text-heading {
@@ -159,7 +153,6 @@ html {
 }
 
 #content {
-
 }
 
 #content .content-section {
@@ -168,8 +161,6 @@ html {
     padding: 96px 16px;
     margin-left: auto;
     margin-right: auto;
-    
-    
 }
 #content .content-heading {
     font-size: 30px;
@@ -196,7 +187,6 @@ html {
     width: 154px;
     border-radius: 5px;
     margin-top: 15px;
-    
 }
 
 /* tour tickets */
@@ -230,7 +220,7 @@ html {
     border-radius: 50%;
     line-height: 24px;
     text-align: center;
-    margin-top: -3px;    
+    margin-top: -3px;
     margin-right: 24px;
 }
 .places-list {
@@ -256,7 +246,6 @@ html {
     margin-bottom: 15px;
     font-weight: 600;
     font-size: 15px;
-
 }
 
 .place-time {
@@ -266,7 +255,7 @@ html {
 
 .place-desc {
     line-height: 1.4;
-}   
+}
 .btn {
     margin-top: 16px;
     text-decoration: none;
@@ -309,7 +298,6 @@ html {
     padding: 10px;
     border: 1px solid #ccc;
     font-size: 15px;
-
 }
 /* map */
 #content .map-img {
@@ -329,21 +317,20 @@ html {
     font-size: 24px;
     text-decoration: none;
     margin-bottom: 15px;
-
 }
 #footer .copyright a {
     color: #757575;
 }
 
 /* modal */
-.modal{
+.modal {
     display: none;
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0 , 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     align-items: center;
     justify-content: center;
 }
@@ -353,8 +340,8 @@ html {
     min-height: 200px;
     position: relative;
     max-width: calc(100% - 32px);
-    box-shadow: 0 0 10px rgba(0, 0, 0 , 0.3);
-    animation: modalMove ease .3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: modalMove ease 0.3s;
 }
 .modal-close {
     position: absolute;
@@ -376,8 +363,6 @@ html {
     height: 130px;
     font-size: 30px;
     color: #fff;
-
-
 }
 
 .modal-text {
@@ -414,10 +399,9 @@ html {
     opacity: 0.8;
 }
 
-
 @keyframes modalMove {
     from {
-        transform:translateY(-300px);
+        transform: translateY(-300px);
         opacity: 0.6;
     }
     to {
